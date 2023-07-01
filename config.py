@@ -14,19 +14,19 @@ load_dotenv("config.env")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "9774346"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "a92aed7d74654a563af4b07efbcd88e9")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-100"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "")
+OWNER = os.environ.get("OWNER", "907544310")
 
 # Protect Content
-PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
+PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -39,8 +39,8 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-100"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-100"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -64,7 +64,7 @@ FORCE_MSG = os.environ.get(
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
-DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "False"))
+DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "True"))
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
